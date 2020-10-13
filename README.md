@@ -12,7 +12,7 @@ In this project, we combine GDELT data with Twitter data, to get information abo
 
 ## Installation
 
-Use `RunSpark.sh` to run the spark jobs for GDELT and twitter datasets. The project runs on a distributed cluster on Spark.
+Use `runSpark.sh` to run the spark jobs for GDELT and twitter datasets. The project runs on a distributed cluster on Spark.
 The input files are stores on AWS S3 buckets
 Postgresql is the final database
 The script requires Spark running on a distributed cluster, input .csv data files stored in an S3 bucket, and a PostgreSQL database to store the output tables.
@@ -27,10 +27,10 @@ Prepare, process the data and load it to postgresql
 Finally, visualize results using tableau
 
 ## Datasets
-Twitter 
+*Twitter 
 Source: [INTERNET ARCHIVE](https://archive.org/details/archiveteam-twitter-stream-2020-03)
 1 month of uncompressed data ⩬ 840 GB
-GDELT 
+*GDELT 
 Source: [GDELT project](https://www.gdeltproject.org/data.html#rawdatafiles)
 1 months  ⩬ 18 GB
 
