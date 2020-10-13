@@ -9,7 +9,6 @@ GDELT is an open source project called GDELT Project that collates articles from
 In this project, we combine GDELT data with Twitter data, to get information about twitter influencer network.
 
 
-[Taximizer web app](taximizer.dataparade.xyz)  |  [Taximizer Slides](https://docs.google.com/presentation/d/1ozqR8Iqtho02ZE-h22gvEz2AM5OwbfHrJrgAp0_lbk4/edit?usp=sharing)  |  [Recorded Demo](https://www.youtube.com/watch?v=RlZl1Vz8Lok)
 
 ## Installation
 
