@@ -1,7 +1,7 @@
 # Insight-Project
 # Event-Fluence: Influencing power of credible tweeters
 
-![image](app/data/event_fluence_1.png)
+![image](app/event_fluence_1.png)
 
 
 Lot of events are happening around the world.
@@ -20,7 +20,7 @@ The frontend application is developed using Tableau.
 
 ## Architecture
 
-![image](app/data/architecture.png)
+![image](app/architecture.png)
 
 We load the data from GDELT and Twitter to Amazon s3
 Prepare, process the data and load it to postgresql
