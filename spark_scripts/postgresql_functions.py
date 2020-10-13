@@ -271,14 +271,18 @@ def write_to_tweets(database ="project_db"):
                                            reply_count     ,
                                            retweet_count   ,
                                            quote_count     ,
-                                           favorite_count                                      ) 
+                                           favorite_count ,
+                                           created_at,
+                                           avg_tweet_score) 
                                  select distinct td. status_id       ,
                                             td. user_id         ,
                                             td. url             ,
                                             td. reply_count     ,
                                             td. retweet_count   ,
                                             td. quote_count     ,
-                                            td. favorite_count 
+                                            td. favorite_count,
+                                            td.created_at,
+                                            td.reply_count+td.retweet_count+td.quote_count +td.favorite_count
                        from tweets_delta td where  not exists
                             (select 1 from tweets t where  t.status_id=td.status_id)'''
     cur.execute(insert_sql)
