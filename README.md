@@ -27,10 +27,10 @@ Prepare, process the data and load it to postgresql
 Finally, visualize results using tableau
 
 ## Datasets
-*Twitter 
+* Twitter 
 Source: [INTERNET ARCHIVE](https://archive.org/details/archiveteam-twitter-stream-2020-03)
 1 month of uncompressed data ⩬ 840 GB
-*GDELT 
+* GDELT 
 Source: [GDELT project](https://www.gdeltproject.org/data.html#rawdatafiles)
 1 months  ⩬ 18 GB
 
